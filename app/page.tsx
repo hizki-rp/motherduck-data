@@ -108,7 +108,7 @@ export default function Home() {
         <Alert className="bg-blue-50 text-blue-800 border-blue-200">
           <InfoIcon className="h-4 w-4" />
           <AlertDescription>
-            Connected to MotherDuck database via Flask API at http://127.0.0.1:5000. Make sure the API is running to see
+            Connected to MotherDuck database via Flask API at {/* http://127.0.0.1:5000. */} Make sure the API is running to see
             live data.
           </AlertDescription>
         </Alert>

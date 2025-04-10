@@ -1,6 +1,7 @@
 import type { WeatherData, HousePriceData, FlightData } from "./types"
 
-const API_BASE_URL = "http://127.0.0.1:5000/api"
+// const API_BASE_URL = "http://127.0.0.1:5000/api"
+const API_BASE_URL = "https://twilight-smoke-3103.ploomber.app/api"
 const MAX_RETRIES = 3
 const RETRY_DELAY = 1000 // 1 second
 
